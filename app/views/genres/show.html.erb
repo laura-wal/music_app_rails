@@ -1,0 +1,9 @@
+
+<h3><% @genre.albums.each do |album| %>
+  <%=  album.name   %>
+    <% album.songs.each do |song| %>
+      <%= song.name  %>
+    <% end  %></h3>
+  <% end  %></h3>
+
+
